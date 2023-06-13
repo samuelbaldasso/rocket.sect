@@ -1,0 +1,77 @@
+body{
+  font-family: "JetBrains Mono", sans-serif;
+  background-color: #2C2B3D;
+}
+
+main {
+  padding: 71px 99px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+header nav{
+  display: flex;
+  gap: 64px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero{
+  display: flex;
+  gap: 77px;
+  color: #fff;
+  width: 1092px;
+  text-align: center;
+}
+
+.hero h1{
+  font-size: 36px;
+  line-height: 40px;
+  margin-bottom: 59px;
+}
+
+.hero p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7D7987;
+  max-width: 604px;
+}
+
+.hero p strong{
+  color: #C2C2C2;
+}
+
+.hero h1 span, .hero p span {
+  color: #00BFA6;
+}
+
+.line{
+  border-top: 1px solid #00BFA6;
+  width: 568px; 
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin-top: 83px;
+}
+
+.padlock {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+}
+
