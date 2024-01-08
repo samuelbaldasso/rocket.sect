@@ -25,6 +25,7 @@ header nav a {
 
 .hero{
   display: flex;
+  margin: auto;
   gap: 77px;
   color: #fff;
   width: 1092px;
